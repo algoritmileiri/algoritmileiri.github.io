@@ -212,6 +212,8 @@ map = [
 resetCanvas.onclick = () => {
     reset()
     liikkeet = []
+    liikkeetTulostus = document.getElementById("liikkeet")
+    liikkeetTulostus.textContent = "";
 }
 setInterval(() => {
     pelaajaLiikkui = false
